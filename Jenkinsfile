@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('checkout') {
         steps {
-            git(git branch: 'main', url: 'https://github.com/eindu/hangouttfansjenkins.git')
+            git(branch: 'main', url: 'https://github.com/eindu/hangouttfansjenkins.git')
         }
     }
     stage('infra') {
