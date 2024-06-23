@@ -10,7 +10,7 @@ pipeline {
         timeout(time: 1, unit: 'HOURS')
     }
     tools {
-        maven '3.9.6'
+        maven '3.8.7'
         terraform '40619'
         ansible '2.16.8'
     } 
