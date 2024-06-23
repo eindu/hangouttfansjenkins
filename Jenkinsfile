@@ -23,15 +23,15 @@ pipeline {
     stage('infra') {
         steps {
             sh '''
-                terraform -chdir=src\main\config\terraform init
-                terraform -chdir=src\main\config\terraform apply --auto-approve
-                terraform -chdir=src\main\config\terraform output --raw "hangout_ec2ip" > hosts
+                terraform -chdir=src/main/config/terraform init
+                terraform -chdir=src/main/config/terraform apply --auto-approve
+                terraform -chdir=src/main/config/terraform output --raw "hangout_ec2ip" > hosts
             '''
         }
         post {
             failure {
                 sh '''
-                    terraform -chdir=src\main\config\terraform destroy --auto-approve
+                    terraform -chdir=src/main/config/terraform destroy --auto-approve
                 '''
             }
         }
