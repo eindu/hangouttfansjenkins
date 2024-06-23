@@ -1,0 +1,6 @@
+hangoutvpc_cidr="10.1.0.0/16"
+hangout_pubsn1 = "10.1.1.0/24"
+hangout_pubsn2 = "10.1.2.0/24"
+ami="ami-0f58b397bc5c1f2e8"
+instance_type = "t2.micro"
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGUOtCfo06qnb+0crfO6D76O4jqp7624trOHQw7xr6+pRvJUk5+m/WaQiogOLyGGHvqwKpvtSYc53XBy5ZvK4JPizHUZjhhnvSSaKfGcvUZfTMx4Oywd8ngFjSEYsuwV9EDsgkSBGOgEapD+Bh8CFiJ0WHW3Wvn6JOlCq1qupgpCm9djF1wm2C3Zm1niCTY7ItT2BUjDexQyUyuDQSlhsA6MKB5xNEhQupmZ615+zeOx+JxQxbUYjbKxmxxXv8xrSHAH3RJeI41Agszy5AYAsehmCwz9TocldXlV6GutbaTvnKji/IiEFVRw6W8fgmmexPN9fSyJCNhBPmrjdUZOkj admin@DESKTOP-27N1ALT"
